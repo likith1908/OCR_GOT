@@ -31,7 +31,7 @@ except Exception as e:
     exit()
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDesDQrJe6WfI4aVaaB4oEzQsm8Ni1HStk")
+genai.configure(api_key="API_KEY")
 logging.info("Gemini API configured")
 
 # Lexicons
